@@ -25,6 +25,15 @@ public class User implements Serializable {
 	public String getSource() {
 		return source;
 	}
+	
+	public User(long id, String username, String password, String source) {
+		super();
+		this.id = id;
+		this.username = username;
+		this.password = password;
+		this.source = source;
+	}
+
 	public void setSource(String source) {
 		this.source = source;
 	}
